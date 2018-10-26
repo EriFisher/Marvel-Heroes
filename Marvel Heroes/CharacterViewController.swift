@@ -348,6 +348,7 @@ class CharacterViewController: UIViewController{
                             wikiView.isHidden = true
                         }
                     }
+                 
                     
                 }
             }
@@ -606,11 +607,21 @@ class CharacterViewController: UIViewController{
                                 
                                 if newContentArray.count > 1 {
                                     
-                                    let message = newContentArray[0].replacingOccurrences(of: "\",", with: "°")
+                                    var message = newContentArray[0].replacingOccurrences(of: "\",", with: "°")
                                     
                                     
                                     print(message.withoutHtml)
+                                    if message.contains("Venom is a fictional") {
+                                        if masterCharacter.contains("Venom") == true {
+
+                                        }
+                                        else {
+                                          message = ""
+                                        }
+
+                                    }
                                     self.wikiArray.append(message.withoutHtml)
+
                                     //   print(message.withoutHtml)
                                     //  self.wikiArray.append(message.withoutHtml)
                                     //   self.answer(string: message)
