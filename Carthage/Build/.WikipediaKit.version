@@ -1,0 +1,9 @@
+{
+  "commitish" : "v2.0.1",
+  "iOS" : [
+    {
+      "name" : "WikipediaKit",
+      "hash" : "81af55c49db888bda5d7f36341d87027c28239fe22207c86881b6d33ee02e110"
+    }
+  ]
+}

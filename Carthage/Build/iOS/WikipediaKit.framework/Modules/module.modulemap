@@ -1,0 +1,4 @@
+framework module WikipediaKit {
+  header "WikipediaKit-Swift.h"
+  requires objc
+}

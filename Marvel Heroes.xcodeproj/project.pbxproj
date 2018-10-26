@@ -19,8 +19,6 @@
 		A962FEDD217DB4CC00A4AF75 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962FEDA217DB4CB00A4AF75 /* VideoCutter.swift */; };
 		A962FEE5217EAB0D00A4AF75 /* Space-Background-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A962FEE4217EAB0D00A4AF75 /* Space-Background-Photo.jpg */; };
 		A962FEEB217EC3AD00A4AF75 /* Magic Tricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962FEEA217EC3AD00A4AF75 /* Magic Tricks.swift */; };
-		A962FF1F217F314400A4AF75 /* WikipediaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A962FF18217F313A00A4AF75 /* WikipediaKit.framework */; };
-		A962FF20217F314400A4AF75 /* WikipediaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A962FF18217F313A00A4AF75 /* WikipediaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9C9002F2182A4960075D48C /* Marvel_HeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9002E2182A4960075D48C /* Marvel_HeroesTests.swift */; };
 		A9C9003D2182AB8F0075D48C /* Marvel_HeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9003C2182AB8F0075D48C /* Marvel_HeroesUITests.swift */; };
 		A9C9FF60217F99230075D48C /* VideoIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9FF5F217F99230075D48C /* VideoIntroViewController.swift */; };
@@ -59,48 +57,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A962FF15217F313A00A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365081E81757500F39F78;
-			remoteInfo = "WikipediaKit-macOS";
-		};
-		A962FF17217F313A00A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365471E81AC6A00F39F78;
-			remoteInfo = "WikipediaKit-iOS";
-		};
-		A962FF19217F313A00A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E3658A1E81C95D00F39F78;
-			remoteInfo = "WikipediaKit-watchOS";
-		};
-		A962FF1B217F313A00A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365AC1E81C9E300F39F78;
-			remoteInfo = "WikipediaKit-tvOS";
-		};
-		A962FF1D217F313A00A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 274EFCDD1EB899E90047428B;
-			remoteInfo = WikipediaKitTests;
-		};
-		A962FF21217F314400A4AF75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 27E365461E81AC6A00F39F78;
-			remoteInfo = "WikipediaKit-iOS";
-		};
 		A9C900312182A4960075D48C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A962FE1E217D4DD000A4AF75 /* Project object */;
@@ -116,20 +72,6 @@
 			remoteInfo = "Marvel Heroes";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A962FF23217F314400A4AF75 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A962FF20217F314400A4AF75 /* WikipediaKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		083FCF6B6F4023F48BE0C544 /* Pods-Marvel Heroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel Heroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel Heroes/Pods-Marvel Heroes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +90,6 @@
 		A962FEDA217DB4CB00A4AF75 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
 		A962FEE4217EAB0D00A4AF75 /* Space-Background-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Space-Background-Photo.jpg"; sourceTree = "<group>"; };
 		A962FEEA217EC3AD00A4AF75 /* Magic Tricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Magic Tricks.swift"; sourceTree = "<group>"; };
-		A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WikipediaKit.xcodeproj; path = "../../../../../Downloads/WikipediaKit-master 2/WikipediaKit.xcodeproj"; sourceTree = "<group>"; };
 		A9C9002C2182A4960075D48C /* Marvel HeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvel HeroesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C9002E2182A4960075D48C /* Marvel_HeroesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_HeroesTests.swift; sourceTree = "<group>"; };
 		A9C900302182A4960075D48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -196,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C5A5E52FDF736AFABA74A6 /* Pods_Marvel_Heroes.framework in Frameworks */,
-				A962FF1F217F314400A4AF75 /* WikipediaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +187,6 @@
 				A9C9FF6D218025CA0075D48C /* Search Bar */,
 				A962FEE4217EAB0D00A4AF75 /* Space-Background-Photo.jpg */,
 				A9C900262182A0C70075D48C /* Fonts */,
-				A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */,
 				A962FEEA217EC3AD00A4AF75 /* Magic Tricks.swift */,
 				A962FEDA217DB4CB00A4AF75 /* VideoCutter.swift */,
 				A9C900272182A0DF0075D48C /* Photos and Videos */,
@@ -264,18 +203,6 @@
 				A962FE35217D4DD200A4AF75 /* Info.plist */,
 			);
 			path = "Marvel Heroes";
-			sourceTree = "<group>";
-		};
-		A962FF0E217F313A00A4AF75 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A962FF16217F313A00A4AF75 /* WikipediaKit.framework */,
-				A962FF18217F313A00A4AF75 /* WikipediaKit.framework */,
-				A962FF1A217F313A00A4AF75 /* WikipediaKit.framework */,
-				A962FF1C217F313A00A4AF75 /* WikipediaKit.framework */,
-				A962FF1E217F313A00A4AF75 /* WikipediaKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A9C900252182A0820075D48C /* SFX */ = {
@@ -424,12 +351,10 @@
 				A962FE24217D4DD000A4AF75 /* Resources */,
 				A675AB09E020D7DC1EB18D65 /* [CP] Embed Pods Frameworks */,
 				A962FE7C217D520C00A4AF75 /* ShellScript */,
-				A962FF23217F314400A4AF75 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A962FF22217F314400A4AF75 /* PBXTargetDependency */,
 			);
 			name = "Marvel Heroes";
 			productName = "Marvel Heroes";
@@ -506,12 +431,6 @@
 			mainGroup = A962FE1D217D4DD000A4AF75;
 			productRefGroup = A962FE27217D4DD000A4AF75 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A962FF0E217F313A00A4AF75 /* Products */;
-					ProjectRef = A962FF0D217F313A00A4AF75 /* WikipediaKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A962FE25217D4DD000A4AF75 /* Marvel Heroes */,
@@ -520,44 +439,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A962FF16217F313A00A4AF75 /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A962FF15217F313A00A4AF75 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A962FF18217F313A00A4AF75 /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A962FF17217F313A00A4AF75 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A962FF1A217F313A00A4AF75 /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A962FF19217F313A00A4AF75 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A962FF1C217F313A00A4AF75 /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A962FF1B217F313A00A4AF75 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A962FF1E217F313A00A4AF75 /* WikipediaKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = WikipediaKitTests.xctest;
-			remoteRef = A962FF1D217F313A00A4AF75 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A962FE24217D4DD000A4AF75 /* Resources */ = {
@@ -713,11 +594,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A962FF22217F314400A4AF75 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "WikipediaKit-iOS";
-			targetProxy = A962FF21217F314400A4AF75 /* PBXContainerItemProxy */;
-		};
 		A9C900322182A4960075D48C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A962FE25217D4DD000A4AF75 /* Marvel Heroes */;
@@ -870,7 +746,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 083FCF6B6F4023F48BE0C544 /* Pods-Marvel Heroes.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QXNY244DY;
@@ -891,7 +766,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D59E44563B86312CB7B6A567 /* Pods-Marvel Heroes.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QXNY244DY;
