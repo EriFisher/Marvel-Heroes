@@ -1,0 +1,28 @@
+PODS:
+  - CollectionViewSlantedLayout (3.1.1)
+  - Kingfisher (4.10.0)
+  - ReachabilitySwift (4.3.0)
+  - SwiftSpinner (1.6.2)
+
+DEPENDENCIES:
+  - CollectionViewSlantedLayout (~> 3.1)
+  - Kingfisher (~> 4.0)
+  - ReachabilitySwift
+  - SwiftSpinner
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CollectionViewSlantedLayout
+    - Kingfisher
+    - ReachabilitySwift
+    - SwiftSpinner
+
+SPEC CHECKSUMS:
+  CollectionViewSlantedLayout: 24397455acd2461960bc45d394e0ef99c17d03ce
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SwiftSpinner: 3a4c6dea425e5a31b908a8b1dd5dcd1ad4d96340
+
+PODFILE CHECKSUM: 65e595ff9c58ec33227b9fd7b20b1d76ee3bf5d6
+
+COCOAPODS: 1.5.3
