@@ -9,25 +9,25 @@ class CharacterViewController: UIViewController{
     let apiClient = MarvelAPIClient(publicKey: "68ecd20c670e6422b5fbb8584f23fdbd8",
                                     privateKey: "b5ff2cea38f44ff5d6284b5965dcb307bd2b882f")
     var scrollViewVert: UIScrollView!
-
+    
     var wikiView = UITextView()
     var wikiTitle = UILabel()
     let backButton = UIButton()
     //back to menu
     @objc func back() {
         //clear everything
-            supremeCharacterArray = []
-            supremeImageArray = []
-            supremeDescriptionArray = []
-            letter = ""
-            masterCharacter = ""
-            finalImage = nil
-            superDescription = ""
+        supremeCharacterArray = []
+        supremeImageArray = []
+        supremeDescriptionArray = []
+        letter = ""
+        masterCharacter = ""
+        finalImage = nil
+        superDescription = ""
         //returns to menu
-            let newViewController = self.storyboard?.instantiateViewController(withIdentifier: "Menu")
-            let customViewControllersArray : NSArray = [newViewController!]
-            self.navigationController?.viewControllers = customViewControllersArray as! [UIViewController]
-            self.navigationController?.popToRootViewController(animated: true)
+        let newViewController = self.storyboard?.instantiateViewController(withIdentifier: "Menu")
+        let customViewControllersArray : NSArray = [newViewController!]
+        self.navigationController?.viewControllers = customViewControllersArray as! [UIViewController]
+        self.navigationController?.popToRootViewController(animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +65,7 @@ class CharacterViewController: UIViewController{
         case 1136:
             print("iPhone 5 or 5S or 5C")
             title.font =  UIFont(name: "BentonSans", size: 14)
-          title.adjustsFontSizeToFitWidth = true
+            title.adjustsFontSizeToFitWidth = true
             title.center.x = view.center.x
             //     cell.label.font =  UIFont(name: "BentonSans", size: cell.label.font.pointSize - 3)
             
@@ -76,7 +76,7 @@ class CharacterViewController: UIViewController{
         scrollView.indicatorStyle = .white
         let imageView = UIImageView(frame: CGRect(x: 0, y: 50, width: 300, height: 300))
         imageView.center.x = view.center.x
-      //  imageView.isHidden = true
+        //  imageView.isHidden = true
         imageView.image = finalImage
         scrollView.addSubview(imageView)
         let textView = UITextView(frame: CGRect(x: 0, y: 348, width: 300, height: 300))
@@ -93,10 +93,10 @@ class CharacterViewController: UIViewController{
         textView.layer.shadowOffset = CGSize(width: 6, height: 6)
         textView.layer.masksToBounds = false
         textView.text = superDescription
-    
+        
         if textView.text == "" {
             textView.text = "   " + "\("Character Description Unavailable")"
-
+            
         }
         adjustContentSize(tv: textView)
         wikiView = UITextView(frame: CGRect(x: 0, y: 1100, width: 300, height: 500))
@@ -143,9 +143,9 @@ class CharacterViewController: UIViewController{
         backButton.frame =  CGRect(x: view.frame.minX, y: view.frame.minY + 20 , width: 30, height: 30)
         backButton.alpha = 0.9
         // translatebutton.backgroundColor = .green
-      //  backButton.setImage(#imageLiteral(resourceName: "back"), for: .normal)
+        //  backButton.setImage(#imageLiteral(resourceName: "back"), for: .normal)
         backButton.setTitle("X", for: .normal)
-            backButton.titleLabel?.font = UIFont(name: "BentonSans", size: 25)
+        backButton.titleLabel?.font = UIFont(name: "BentonSans", size: 25)
         backButton.setTitleColor(.white, for: .normal)
         view.addSubview(backButton)
         backButton.addTarget(self, action: #selector(back), for: .touchUpInside)
@@ -215,11 +215,11 @@ class CharacterViewController: UIViewController{
                                                     print(error)
                                                 }
                                                 self.comicadded += 1
-
+                                                
                                             }
-                                           
+                                            
                                         }
-                                      
+                                        
                                     }
                                 }
                             }
@@ -253,7 +253,7 @@ class CharacterViewController: UIViewController{
                         imageView.image = image
                         imageView.isHidden = false
                         self.adjustContentSize(tv: textView)
-
+                        
                     }
                 }
                 
@@ -275,13 +275,13 @@ class CharacterViewController: UIViewController{
         didSet {
             DispatchQueue.main.asyncAfter(deadline: .now() + 7) {
                 var contentRect = CGRect.zero
-
+                
                 for view in self.scrollViewVert.subviews {
                     contentRect = contentRect.union(view.frame)
                 }
                 self.scrollViewVert.contentSize = contentRect.size
             }
-          
+            
         }
     }
     override var prefersStatusBarHidden: Bool {
@@ -309,28 +309,46 @@ class CharacterViewController: UIViewController{
     var characterSearch = "\(masterCharacter)".replacingOccurrences(of: " ", with: "_").replacingOccurrences(of: "(Ultimate)", with: "")
     var characterSearchWithout = "\(masterCharacter)".replacingOccurrences(of: " ", with: "_").replacingOccurrences(of: "(Ultimate)", with: "")
     var numberOfMarvels = 0
+    var counter = 0
     var wikiArray: [String] = [""] {
         didSet {
             
             for i in wikiArray {
-                //compare number of times Marvel is Said
-                let tok =  i.components(separatedBy:"Marvel")
-                if  tok.count-1 >= numberOfMarvels {
-                    print("win")
-                    numberOfMarvels = tok.count-1
-                    
+                if i == "" {
+                    wikiTitle.isHidden = true
+                    wikiView.isHidden = true
+                }
+                if i.contains("Wikipedia does not") {
+                    print("tits")
+                }
+                if i != "" && counter == 0 && i.contains("Marvel") {
                     wikiView.text = "   " + "\(i.replacingOccurrences(of: "<", with: ""))"
                     
                     wikiTitle.isHidden = false
                     wikiView.isHidden = false
-                    if masterCharacter.contains("A-Bomb") == true {
-                        wikiTitle.isHidden = true
-                        wikiView.isHidden = true
+                    
+                }
+                else {
+                    //compare number of times Marvel is Said
+                    let tok =  i.components(separatedBy:"Marvel")
+                    if  tok.count-1 >= numberOfMarvels {
+                        print("win")
+                        numberOfMarvels = tok.count-1
+                        
+                        wikiView.text = "   " + "\(i.replacingOccurrences(of: "<", with: ""))"
+                        
+                        wikiTitle.isHidden = false
+                        wikiView.isHidden = false
+                        if masterCharacter.contains("A-Bomb") == true {
+                            wikiTitle.isHidden = true
+                            wikiView.isHidden = true
+                        }
+                        if masterCharacter.contains("3-D") == true {
+                            wikiTitle.isHidden = true
+                            wikiView.isHidden = true
+                        }
                     }
-                    if masterCharacter.contains("3-D") == true {
-                        wikiTitle.isHidden = true
-                        wikiView.isHidden = true
-                    }
+                    
                 }
             }
         }
@@ -339,7 +357,7 @@ class CharacterViewController: UIViewController{
         //the wikipedia search
         apiSearch()
         firstSearch()
-        reSearch()
+        //   reSearch()
         reSearch2()
         reSearch3()
     }
@@ -419,7 +437,7 @@ class CharacterViewController: UIViewController{
         })
     }
     //adds marvel comics in search
-
+    
     func reSearch() {
         print("egg Mcmiuiff")
         let url = URL(string: "https://en.wikipedia.org/wiki/" + self.characterSearchWithout + "_(Marvel_Comics)")
@@ -463,7 +481,7 @@ class CharacterViewController: UIViewController{
         
     }
     //searches inside parenthesis
-
+    
     func reSearch2() {
         
         if characterSearch.contains("(") && characterSearch.contains(")") {
@@ -512,7 +530,7 @@ class CharacterViewController: UIViewController{
         }
     }
     //searches for the term + comic
-
+    
     func reSearch3() {
         let url = URL(string: "https://en.wikipedia.org/wiki/" + self.characterSearchWithout + "_(comics)")
         let task = URLSession.shared.dataTask(with: url!) {(data, response, error) in
@@ -549,7 +567,7 @@ class CharacterViewController: UIViewController{
         
     }
     //searches using the wikipedia api... probably the most effective one
-
+    
     func apiSearch() {
         let language = WikipediaLanguage("en")
         WikipediaNetworking.appAuthorEmailForAPI = "appparentsinfo@gmail.com"
@@ -644,7 +662,7 @@ class CharacterViewController: UIViewController{
                         
                         
                         print(message.withoutHtml)
-                   
+                        
                         
                     }
                     
@@ -682,6 +700,6 @@ class CharacterViewController: UIViewController{
             
         }
     }
-
+    
     
 }
