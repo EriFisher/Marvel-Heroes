@@ -1,7 +1,14 @@
 # Marvel-Heroes
 ---To Use -----
-Install pods
-Install Cartfile 
+
+1. Install pods
+
+
+2. Install Cartfile 
+
+
+
+
 Done 
 
 
