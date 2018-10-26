@@ -71,6 +71,41 @@
 			remoteGlobalIDString = A962FE25217D4DD000A4AF75;
 			remoteInfo = "Marvel Heroes";
 		};
+		A9C9006B2182C9430075D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27E365081E81757500F39F78;
+			remoteInfo = "WikipediaKit-macOS";
+		};
+		A9C9006D2182C9430075D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27E365471E81AC6A00F39F78;
+			remoteInfo = "WikipediaKit-iOS";
+		};
+		A9C9006F2182C9430075D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27E3658A1E81C95D00F39F78;
+			remoteInfo = "WikipediaKit-watchOS";
+		};
+		A9C900712182C9430075D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27E365AC1E81C9E300F39F78;
+			remoteInfo = "WikipediaKit-tvOS";
+		};
+		A9C900732182C9430075D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 274EFCDD1EB899E90047428B;
+			remoteInfo = WikipediaKitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +131,7 @@
 		A9C9003A2182AB8F0075D48C /* Marvel HeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvel HeroesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C9003C2182AB8F0075D48C /* Marvel_HeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_HeroesUITests.swift; sourceTree = "<group>"; };
 		A9C9003E2182AB8F0075D48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WikipediaKit.xcodeproj; path = "Wikipedia Api/WikipediaKit.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		A9C9FF5F217F99230075D48C /* VideoIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoIntroViewController.swift; sourceTree = "<group>"; };
 		A9C9FF61217FC3C90075D48C /* LetterSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSearchViewController.swift; sourceTree = "<group>"; };
 		A9C9FF65217FDB570075D48C /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +218,7 @@
 		A962FE28217D4DD000A4AF75 /* Marvel Heroes */ = {
 			isa = PBXGroup;
 			children = (
+				A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */,
 				A962FE29217D4DD000A4AF75 /* AppDelegate.swift */,
 				A962FE2D217D4DD000A4AF75 /* Main.storyboard */,
 				A9C9FF6D218025CA0075D48C /* Search Bar */,
@@ -248,6 +285,18 @@
 				A9C9003E2182AB8F0075D48C /* Info.plist */,
 			);
 			path = "Marvel HeroesUITests";
+			sourceTree = "<group>";
+		};
+		A9C900642182C9430075D48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C9006C2182C9430075D48C /* WikipediaKit.framework */,
+				A9C9006E2182C9430075D48C /* WikipediaKit.framework */,
+				A9C900702182C9430075D48C /* WikipediaKit.framework */,
+				A9C900722182C9430075D48C /* WikipediaKit.framework */,
+				A9C900742182C9430075D48C /* WikipediaKitTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A9C9FF6D218025CA0075D48C /* Search Bar */ = {
@@ -431,6 +480,12 @@
 			mainGroup = A962FE1D217D4DD000A4AF75;
 			productRefGroup = A962FE27217D4DD000A4AF75 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A9C900642182C9430075D48C /* Products */;
+					ProjectRef = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A962FE25217D4DD000A4AF75 /* Marvel Heroes */,
@@ -439,6 +494,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A9C9006C2182C9430075D48C /* WikipediaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WikipediaKit.framework;
+			remoteRef = A9C9006B2182C9430075D48C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C9006E2182C9430075D48C /* WikipediaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WikipediaKit.framework;
+			remoteRef = A9C9006D2182C9430075D48C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C900702182C9430075D48C /* WikipediaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WikipediaKit.framework;
+			remoteRef = A9C9006F2182C9430075D48C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C900722182C9430075D48C /* WikipediaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WikipediaKit.framework;
+			remoteRef = A9C900712182C9430075D48C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C900742182C9430075D48C /* WikipediaKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WikipediaKitTests.xctest;
+			remoteRef = A9C900732182C9430075D48C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A962FE24217D4DD000A4AF75 /* Resources */ = {
