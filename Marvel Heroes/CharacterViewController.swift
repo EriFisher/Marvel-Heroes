@@ -4,7 +4,6 @@
 
 import UIKit
 import Kingfisher
-import WikipediaKit
 //displays the character info, description, comics they were in and has a web crawler to pick the correct wikipedia page that describes them
 class CharacterViewController: UIViewController{
     let apiClient = MarvelAPIClient(publicKey: "68ecd20c670e6422b5fbb8584f23fdbd8",

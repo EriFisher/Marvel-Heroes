@@ -21,6 +21,34 @@
 		A962FEEB217EC3AD00A4AF75 /* Magic Tricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962FEEA217EC3AD00A4AF75 /* Magic Tricks.swift */; };
 		A9C9002F2182A4960075D48C /* Marvel_HeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9002E2182A4960075D48C /* Marvel_HeroesTests.swift */; };
 		A9C9003D2182AB8F0075D48C /* Marvel_HeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9003C2182AB8F0075D48C /* Marvel_HeroesUITests.swift */; };
+		A9C9012E2182CF710075D48C /* WikipediaNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901122182CF710075D48C /* WikipediaNetworking.swift */; };
+		A9C9012F2182CF710075D48C /* WikipediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901132182CF710075D48C /* WikipediaImage.swift */; };
+		A9C901302182CF710075D48C /* WikipediaLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901142182CF710075D48C /* WikipediaLanguage.swift */; };
+		A9C901312182CF710075D48C /* String+Wikipedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901152182CF710075D48C /* String+Wikipedia.swift */; };
+		A9C901322182CF710075D48C /* Wikipedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901162182CF710075D48C /* Wikipedia.swift */; };
+		A9C901332182CF710075D48C /* WikipediaTOCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901172182CF710075D48C /* WikipediaTOCItem.swift */; };
+		A9C901342182CF710075D48C /* WikipediaArticleCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901182182CF710075D48C /* WikipediaArticleCache.swift */; };
+		A9C901352182CF710075D48C /* WikipediaTextFormattingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901192182CF710075D48C /* WikipediaTextFormattingDelegate.swift */; };
+		A9C901362182CF710075D48C /* WikipediaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011A2182CF710075D48C /* WikipediaError.swift */; };
+		A9C901372182CF710075D48C /* WikipediaNetworkingActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011B2182CF710075D48C /* WikipediaNetworkingActivityDelegate.swift */; };
+		A9C901382182CF710075D48C /* Wikipedia+NearbySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011C2182CF710075D48C /* Wikipedia+NearbySearch.swift */; };
+		A9C901392182CF710075D48C /* WikipediaArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011D2182CF710075D48C /* WikipediaArticle.swift */; };
+		A9C9013A2182CF710075D48C /* Wikipedia+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011E2182CF710075D48C /* Wikipedia+Search.swift */; };
+		A9C9013B2182CF710075D48C /* WikipediaArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9011F2182CF710075D48C /* WikipediaArticlePreview.swift */; };
+		A9C9013C2182CF710075D48C /* WikipediaNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901202182CF710075D48C /* WikipediaNamespace.swift */; };
+		A9C9013D2182CF710075D48C /* Wikipedia+Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901212182CF710075D48C /* Wikipedia+Article.swift */; };
+		A9C9013E2182CF710075D48C /* WikipediaRandomArticlesBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901222182CF710075D48C /* WikipediaRandomArticlesBuffer.swift */; };
+		A9C9013F2182CF710075D48C /* Wikipedia+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901232182CF710075D48C /* Wikipedia+Languages.swift */; };
+		A9C901402182CF710075D48C /* Wikipedia+RandomArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901242182CF710075D48C /* Wikipedia+RandomArticles.swift */; };
+		A9C901412182CF710075D48C /* WikipediaSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901252182CF710075D48C /* WikipediaSearchResults.swift */; };
+		A9C901422182CF710075D48C /* WikipediaSearchMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901262182CF710075D48C /* WikipediaSearchMethod.swift */; };
+		A9C901432182CF710075D48C /* Wikipedia+ImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901272182CF710075D48C /* Wikipedia+ImageMeta.swift */; };
+		A9C901442182CF710075D48C /* URL+Wikipedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901282182CF710075D48C /* URL+Wikipedia.swift */; };
+		A9C901452182CF710075D48C /* Wikipedia+ArticleSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C901292182CF710075D48C /* Wikipedia+ArticleSummary.swift */; };
+		A9C901462182CF710075D48C /* WikipediaBlacklistDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9012A2182CF710075D48C /* WikipediaBlacklistDelegate.swift */; };
+		A9C901472182CF710075D48C /* WikipediaSearchResultsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9012B2182CF710075D48C /* WikipediaSearchResultsCache.swift */; };
+		A9C901482182CF710075D48C /* Wikipedia+MostRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9012C2182CF710075D48C /* Wikipedia+MostRead.swift */; };
+		A9C901492182CF710075D48C /* WikipediaArticleLanguageLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9012D2182CF710075D48C /* WikipediaArticleLanguageLink.swift */; };
 		A9C9FF60217F99230075D48C /* VideoIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9FF5F217F99230075D48C /* VideoIntroViewController.swift */; };
 		A9C9FF62217FC3C90075D48C /* LetterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9FF61217FC3C90075D48C /* LetterSearchViewController.swift */; };
 		A9C9FF66217FDB570075D48C /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9FF65217FDB570075D48C /* CharacterViewController.swift */; };
@@ -71,41 +99,6 @@
 			remoteGlobalIDString = A962FE25217D4DD000A4AF75;
 			remoteInfo = "Marvel Heroes";
 		};
-		A9C9006B2182C9430075D48C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365081E81757500F39F78;
-			remoteInfo = "WikipediaKit-macOS";
-		};
-		A9C9006D2182C9430075D48C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365471E81AC6A00F39F78;
-			remoteInfo = "WikipediaKit-iOS";
-		};
-		A9C9006F2182C9430075D48C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E3658A1E81C95D00F39F78;
-			remoteInfo = "WikipediaKit-watchOS";
-		};
-		A9C900712182C9430075D48C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E365AC1E81C9E300F39F78;
-			remoteInfo = "WikipediaKit-tvOS";
-		};
-		A9C900732182C9430075D48C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 274EFCDD1EB899E90047428B;
-			remoteInfo = WikipediaKitTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -131,7 +124,34 @@
 		A9C9003A2182AB8F0075D48C /* Marvel HeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvel HeroesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C9003C2182AB8F0075D48C /* Marvel_HeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_HeroesUITests.swift; sourceTree = "<group>"; };
 		A9C9003E2182AB8F0075D48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WikipediaKit.xcodeproj; path = "Wikipedia Api/WikipediaKit.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		A9C901122182CF710075D48C /* WikipediaNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaNetworking.swift; sourceTree = "<group>"; };
+		A9C901132182CF710075D48C /* WikipediaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaImage.swift; sourceTree = "<group>"; };
+		A9C901142182CF710075D48C /* WikipediaLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaLanguage.swift; sourceTree = "<group>"; };
+		A9C901152182CF710075D48C /* String+Wikipedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Wikipedia.swift"; sourceTree = "<group>"; };
+		A9C901162182CF710075D48C /* Wikipedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wikipedia.swift; sourceTree = "<group>"; };
+		A9C901172182CF710075D48C /* WikipediaTOCItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaTOCItem.swift; sourceTree = "<group>"; };
+		A9C901182182CF710075D48C /* WikipediaArticleCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaArticleCache.swift; sourceTree = "<group>"; };
+		A9C901192182CF710075D48C /* WikipediaTextFormattingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaTextFormattingDelegate.swift; sourceTree = "<group>"; };
+		A9C9011A2182CF710075D48C /* WikipediaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaError.swift; sourceTree = "<group>"; };
+		A9C9011B2182CF710075D48C /* WikipediaNetworkingActivityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaNetworkingActivityDelegate.swift; sourceTree = "<group>"; };
+		A9C9011C2182CF710075D48C /* Wikipedia+NearbySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+NearbySearch.swift"; sourceTree = "<group>"; };
+		A9C9011D2182CF710075D48C /* WikipediaArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaArticle.swift; sourceTree = "<group>"; };
+		A9C9011E2182CF710075D48C /* Wikipedia+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+Search.swift"; sourceTree = "<group>"; };
+		A9C9011F2182CF710075D48C /* WikipediaArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaArticlePreview.swift; sourceTree = "<group>"; };
+		A9C901202182CF710075D48C /* WikipediaNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaNamespace.swift; sourceTree = "<group>"; };
+		A9C901212182CF710075D48C /* Wikipedia+Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+Article.swift"; sourceTree = "<group>"; };
+		A9C901222182CF710075D48C /* WikipediaRandomArticlesBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaRandomArticlesBuffer.swift; sourceTree = "<group>"; };
+		A9C901232182CF710075D48C /* Wikipedia+Languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+Languages.swift"; sourceTree = "<group>"; };
+		A9C901242182CF710075D48C /* Wikipedia+RandomArticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+RandomArticles.swift"; sourceTree = "<group>"; };
+		A9C901252182CF710075D48C /* WikipediaSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResults.swift; sourceTree = "<group>"; };
+		A9C901262182CF710075D48C /* WikipediaSearchMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchMethod.swift; sourceTree = "<group>"; };
+		A9C901272182CF710075D48C /* Wikipedia+ImageMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+ImageMeta.swift"; sourceTree = "<group>"; };
+		A9C901282182CF710075D48C /* URL+Wikipedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Wikipedia.swift"; sourceTree = "<group>"; };
+		A9C901292182CF710075D48C /* Wikipedia+ArticleSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+ArticleSummary.swift"; sourceTree = "<group>"; };
+		A9C9012A2182CF710075D48C /* WikipediaBlacklistDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaBlacklistDelegate.swift; sourceTree = "<group>"; };
+		A9C9012B2182CF710075D48C /* WikipediaSearchResultsCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResultsCache.swift; sourceTree = "<group>"; };
+		A9C9012C2182CF710075D48C /* Wikipedia+MostRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wikipedia+MostRead.swift"; sourceTree = "<group>"; };
+		A9C9012D2182CF710075D48C /* WikipediaArticleLanguageLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaArticleLanguageLink.swift; sourceTree = "<group>"; };
 		A9C9FF5F217F99230075D48C /* VideoIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoIntroViewController.swift; sourceTree = "<group>"; };
 		A9C9FF61217FC3C90075D48C /* LetterSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSearchViewController.swift; sourceTree = "<group>"; };
 		A9C9FF65217FDB570075D48C /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
@@ -218,9 +238,9 @@
 		A962FE28217D4DD000A4AF75 /* Marvel Heroes */ = {
 			isa = PBXGroup;
 			children = (
-				A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */,
 				A962FE29217D4DD000A4AF75 /* AppDelegate.swift */,
 				A962FE2D217D4DD000A4AF75 /* Main.storyboard */,
+				A9C901112182CF710075D48C /* Wikipedia API Sources */,
 				A9C9FF6D218025CA0075D48C /* Search Bar */,
 				A962FEE4217EAB0D00A4AF75 /* Space-Background-Photo.jpg */,
 				A9C900262182A0C70075D48C /* Fonts */,
@@ -287,16 +307,39 @@
 			path = "Marvel HeroesUITests";
 			sourceTree = "<group>";
 		};
-		A9C900642182C9430075D48C /* Products */ = {
+		A9C901112182CF710075D48C /* Wikipedia API Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A9C9006C2182C9430075D48C /* WikipediaKit.framework */,
-				A9C9006E2182C9430075D48C /* WikipediaKit.framework */,
-				A9C900702182C9430075D48C /* WikipediaKit.framework */,
-				A9C900722182C9430075D48C /* WikipediaKit.framework */,
-				A9C900742182C9430075D48C /* WikipediaKitTests.xctest */,
+				A9C901122182CF710075D48C /* WikipediaNetworking.swift */,
+				A9C901132182CF710075D48C /* WikipediaImage.swift */,
+				A9C901142182CF710075D48C /* WikipediaLanguage.swift */,
+				A9C901152182CF710075D48C /* String+Wikipedia.swift */,
+				A9C901162182CF710075D48C /* Wikipedia.swift */,
+				A9C901172182CF710075D48C /* WikipediaTOCItem.swift */,
+				A9C901182182CF710075D48C /* WikipediaArticleCache.swift */,
+				A9C901192182CF710075D48C /* WikipediaTextFormattingDelegate.swift */,
+				A9C9011A2182CF710075D48C /* WikipediaError.swift */,
+				A9C9011B2182CF710075D48C /* WikipediaNetworkingActivityDelegate.swift */,
+				A9C9011C2182CF710075D48C /* Wikipedia+NearbySearch.swift */,
+				A9C9011D2182CF710075D48C /* WikipediaArticle.swift */,
+				A9C9011E2182CF710075D48C /* Wikipedia+Search.swift */,
+				A9C9011F2182CF710075D48C /* WikipediaArticlePreview.swift */,
+				A9C901202182CF710075D48C /* WikipediaNamespace.swift */,
+				A9C901212182CF710075D48C /* Wikipedia+Article.swift */,
+				A9C901222182CF710075D48C /* WikipediaRandomArticlesBuffer.swift */,
+				A9C901232182CF710075D48C /* Wikipedia+Languages.swift */,
+				A9C901242182CF710075D48C /* Wikipedia+RandomArticles.swift */,
+				A9C901252182CF710075D48C /* WikipediaSearchResults.swift */,
+				A9C901262182CF710075D48C /* WikipediaSearchMethod.swift */,
+				A9C901272182CF710075D48C /* Wikipedia+ImageMeta.swift */,
+				A9C901282182CF710075D48C /* URL+Wikipedia.swift */,
+				A9C901292182CF710075D48C /* Wikipedia+ArticleSummary.swift */,
+				A9C9012A2182CF710075D48C /* WikipediaBlacklistDelegate.swift */,
+				A9C9012B2182CF710075D48C /* WikipediaSearchResultsCache.swift */,
+				A9C9012C2182CF710075D48C /* Wikipedia+MostRead.swift */,
+				A9C9012D2182CF710075D48C /* WikipediaArticleLanguageLink.swift */,
 			);
-			name = Products;
+			path = "Wikipedia API Sources";
 			sourceTree = "<group>";
 		};
 		A9C9FF6D218025CA0075D48C /* Search Bar */ = {
@@ -480,12 +523,6 @@
 			mainGroup = A962FE1D217D4DD000A4AF75;
 			productRefGroup = A962FE27217D4DD000A4AF75 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A9C900642182C9430075D48C /* Products */;
-					ProjectRef = A9C900632182C9430075D48C /* WikipediaKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A962FE25217D4DD000A4AF75 /* Marvel Heroes */,
@@ -494,44 +531,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A9C9006C2182C9430075D48C /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A9C9006B2182C9430075D48C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A9C9006E2182C9430075D48C /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A9C9006D2182C9430075D48C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A9C900702182C9430075D48C /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A9C9006F2182C9430075D48C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A9C900722182C9430075D48C /* WikipediaKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WikipediaKit.framework;
-			remoteRef = A9C900712182C9430075D48C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A9C900742182C9430075D48C /* WikipediaKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = WikipediaKitTests.xctest;
-			remoteRef = A9C900732182C9430075D48C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A962FE24217D4DD000A4AF75 /* Resources */ = {
@@ -633,36 +632,64 @@
 			files = (
 				A9C9FFF8218272580075D48C /* Image.swift in Sources */,
 				A9C9FF62217FC3C90075D48C /* LetterSearchViewController.swift in Sources */,
+				A9C901302182CF710075D48C /* WikipediaLanguage.swift in Sources */,
 				A9C9FFF7218272580075D48C /* Comic.swift in Sources */,
+				A9C9013D2182CF710075D48C /* Wikipedia+Article.swift in Sources */,
 				A9C9FFC32181908D0075D48C /* MenuViewController.swift in Sources */,
+				A9C9013B2182CF710075D48C /* WikipediaArticlePreview.swift in Sources */,
 				A9C9FF60217F99230075D48C /* VideoIntroViewController.swift in Sources */,
+				A9C901442182CF710075D48C /* URL+Wikipedia.swift in Sources */,
 				A9C9FFFD218272580075D48C /* GetComics.swift in Sources */,
 				A962FED5217DB3F800A4AF75 /* VideoSplashViewController.swift in Sources */,
+				A9C901452182CF710075D48C /* Wikipedia+ArticleSummary.swift in Sources */,
 				A962FE6B217D4DFB00A4AF75 /* CustomCollectionCell.swift in Sources */,
 				A9C9FFF9218272580075D48C /* MarvelResponse.swift in Sources */,
+				A9C901322182CF710075D48C /* Wikipedia.swift in Sources */,
 				A9C9FFFE218272580075D48C /* GetCharacters.swift in Sources */,
 				A9C9FFF1218272580075D48C /* MarvelAPIClient.swift in Sources */,
+				A9C901342182CF710075D48C /* WikipediaArticleCache.swift in Sources */,
 				A9C9FFFB218272580075D48C /* ComicCharacter.swift in Sources */,
+				A9C901372182CF710075D48C /* WikipediaNetworkingActivityDelegate.swift in Sources */,
+				A9C901362182CF710075D48C /* WikipediaError.swift in Sources */,
 				A9C9FFBC218189480075D48C /* MasterViewController.swift in Sources */,
+				A9C9012E2182CF710075D48C /* WikipediaNetworking.swift in Sources */,
 				A9C9FFF4218272580075D48C /* md5.swift in Sources */,
 				A9C9FF66217FDB570075D48C /* CharacterViewController.swift in Sources */,
 				A962FEDD217DB4CC00A4AF75 /* VideoCutter.swift in Sources */,
+				A9C901352182CF710075D48C /* WikipediaTextFormattingDelegate.swift in Sources */,
 				A9C9FFC22181908D0075D48C /* ExtensionTwo.swift in Sources */,
 				A962FE2A217D4DD000A4AF75 /* AppDelegate.swift in Sources */,
+				A9C901472182CF710075D48C /* WikipediaSearchResultsCache.swift in Sources */,
+				A9C901332182CF710075D48C /* WikipediaTOCItem.swift in Sources */,
+				A9C901382182CF710075D48C /* Wikipedia+NearbySearch.swift in Sources */,
 				A9C9FF72218025CA0075D48C /* AZSearchViewDefaults.swift in Sources */,
+				A9C9013C2182CF710075D48C /* WikipediaNamespace.swift in Sources */,
 				A9C9FFF5218272580075D48C /* URLQueryItemEncoder.swift in Sources */,
 				A9C9FF73218025CA0075D48C /* AZSearchViewDataSource.swift in Sources */,
+				A9C9013F2182CF710075D48C /* Wikipedia+Languages.swift in Sources */,
 				A9C9FFB72181873E0075D48C /* GLSTableViewCell.swift in Sources */,
+				A9C901492182CF710075D48C /* WikipediaArticleLanguageLink.swift in Sources */,
+				A9C901312182CF710075D48C /* String+Wikipedia.swift in Sources */,
+				A9C901412182CF710075D48C /* WikipediaSearchResults.swift in Sources */,
+				A9C9013A2182CF710075D48C /* Wikipedia+Search.swift in Sources */,
 				A9C9FFF2218272580075D48C /* HTTPParameter.swift in Sources */,
+				A9C901402182CF710075D48C /* Wikipedia+RandomArticles.swift in Sources */,
+				A9C901422182CF710075D48C /* WikipediaSearchMethod.swift in Sources */,
 				A9C9FFFA218272580075D48C /* MarvelError.swift in Sources */,
 				A9C9FF75218025CA0075D48C /* AZSearchViewDelegate.swift in Sources */,
+				A9C901482182CF710075D48C /* Wikipedia+MostRead.swift in Sources */,
 				A9C9FFFF218272580075D48C /* GetComic.swift in Sources */,
+				A9C901392182CF710075D48C /* WikipediaArticle.swift in Sources */,
 				A9C9FFF6218272580075D48C /* DataContainer.swift in Sources */,
 				A9C9FFF3218272580075D48C /* Result.swift in Sources */,
+				A9C9013E2182CF710075D48C /* WikipediaRandomArticlesBuffer.swift in Sources */,
+				A9C901432182CF710075D48C /* Wikipedia+ImageMeta.swift in Sources */,
 				A9C9FF74218025CA0075D48C /* AZSearchViewController.swift in Sources */,
 				A9C9FFC12181908D0075D48C /* Extension.swift in Sources */,
 				A9C9FFC42181908D0075D48C /* GameplayScene.swift in Sources */,
 				A962FEEB217EC3AD00A4AF75 /* Magic Tricks.swift in Sources */,
+				A9C901462182CF710075D48C /* WikipediaBlacklistDelegate.swift in Sources */,
+				A9C9012F2182CF710075D48C /* WikipediaImage.swift in Sources */,
 				A9C9FFFC218272580075D48C /* APIRequest.swift in Sources */,
 				A9C9FFD42181DED90075D48C /* Singleton.swift in Sources */,
 			);
